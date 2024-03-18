@@ -1,0 +1,37 @@
+============[Date]============
+[ 2024-03-18 23:32:42  Asia/Tashkent ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message text is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 989147832
+ref.message.message_id= 209
+ref.message.from.id= 848511386
+ref.message.from.is_bot= false
+ref.message.from.first_name= Samandar
+ref.message.from.username= Samandar_developer
+ref.message.from.language_code= ru
+ref.message.from.is_premium= true
+ref.message.chat.id= 848511386
+ref.message.chat.first_name= Samandar
+ref.message.chat.username= Samandar_developer
+ref.message.chat.type= private
+ref.message.date= 1710786762
+ref.message.text= 📤 Ovoz berish
+
+
+[ref]
+ref.caption= 
+ref.reply_markup= {"inline_keyboard":[[{"text":"Saytdan ovoz berish \ud83d\ude80","url":"https:\/\/openbudget.uz\/boards\/initiatives\/initiative\/32\/1f179f65-b2c8-4435-9d57-d390aecde891"}],[{"text":"Telegramdan ovoz berish \ud83d\ude80","url":"https:\/\/t.me\/ochiqbudjet_10_bot?start=032299424010"}],[{"text":"Ovoz berdim \u2705","callback_data":"check"}]],"remove_keyboard":true}
+ref.parse_mode= HTML
+
+
+============[Trace]===========
+#0 /home/s/shoisl0d/ideal-study.uz/public_html/openbudget/Telegram.php(3233): TelegramErrorLogger::log(Array, Array)
+#1 /home/s/shoisl0d/ideal-study.uz/public_html/openbudget/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/s/shoisl0d/ideal-study.uz/public_html/openbudget/Telegram.php(196): Telegram->endpoint('sendMessage', Array)
+#3 /home/s/shoisl0d/ideal-study.uz/public_html/openbudget/openbudget.php(68): Telegram->sendMessage(Array)
+#4 {main}
+
